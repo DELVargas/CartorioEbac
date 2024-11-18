@@ -55,7 +55,7 @@
 	fclose(file);
 	
 	system("pause");
-	
+
 }
 
     int consultar()
@@ -110,7 +110,8 @@
     printf("\t1 - Registrar Nomes\n");
     printf("\t2 - Consultar Nomes\n");
     printf("\t3 - Deletar Nomes\n\n"); 
-    printf("Opção: "); //fim do menu
+    printf("\t4 - Sair do sistema \n");
+	printf("Opção: "); //fim do menu
 
     scanf("%d", &opcao); // Armazenando a escolha do usuário
 
@@ -129,6 +130,13 @@
     case 3:
     deletar();
     break;
+    
+    case 4:
+    	printf("Obrigado por utilizar o sistema!\n");
+    	return 0;
+		break;
+    
+    	
 
     default:
     printf("Você escolheu uma opção inválida!\n");
