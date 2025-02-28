@@ -1,0 +1,21 @@
+Calculadora em Phyton simples desenvolvida para funções básicias de matemática.
+
+O projeto contém os seguintes arquivos:
+- calculadora.py → Script Python com a lógica da calculadora.
+- executar_calculadora.sh → Script Bash para rodar automaticamente o arquivo Python.
+
+Passos para a Implementação
+- Criar o Arquivo calculadora.py
+O arquivo contém uma função calcular() que permite ao usuário escolher uma operação matemática (adição, subtração, multiplicação ou divisão). O programa solicita dois números e exibe o resultado.
+
+- Criar o Script executar_calculadora.sh
+Esse script executa automaticamente o código Python.
+
+Conteúdo do arquivo:
+(#!/bin/bash
+python3 calculadora.py)
+Salve o arquivo e torne-o executável com o comando:
+(chmod +x executar_calculadora.sh)
+
+Para executar o script utilizar o código abaixo:
+./executar_calculadora.sh
